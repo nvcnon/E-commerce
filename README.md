@@ -262,8 +262,8 @@ Implemented features include:
 ### 1. Clone the repository
 
 ```bash id="f1q6cw"
-git clone https://github.com/nvcnon/1-Ecommerce.git
-cd 1-Ecommerce
+git clone https://github.com/nvcnon/E-commerce.git
+cd E-commerce
 ```
 
 ### 2. Install dependencies
