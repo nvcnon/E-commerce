@@ -24,14 +24,6 @@ This project demonstrates a real-world frontend architecture with reusable compo
 
 ![Shopping Cart](./screenshots/cart.png)
 
-### 🔐 Login
-
-![Login Page](./screenshots/login.png)
-
-### 📰 Magazine
-
-![Magazine](./screenshots/magazine.png)
-
 ---
 
 ## ✨ Features
