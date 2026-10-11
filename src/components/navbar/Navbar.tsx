@@ -190,6 +190,17 @@ const Navbar = () => {
                 همه محصولات
               </Link>
 
+              <Link
+                to="/magazine"
+                onClick={closeMenu}
+                className={`border-b border-gray-700 px-6 py-4 ${
+                  location.pathname === "/magazine"
+                    ? "bg-gray-700 border-b-white"
+                    : ""
+                }`}
+              >
+                مجلات
+              </Link>
 
               <a
                 href="https://tracking.post.ir/"
