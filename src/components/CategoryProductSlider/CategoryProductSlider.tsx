@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import styles from "./ResponsiveBreakPoints.module.css";
+import styles from "./CategoryProductSlider.module.css";
 import { Pagination, Autoplay } from "swiper/modules";
 import type { IProduct } from "../../types/server";
 import { useEffect, useState } from "react";
@@ -10,11 +10,11 @@ import { getProductsByCategory } from "../../services/api";
 import { Link } from "react-router-dom";
 import Loader from "../loader/Loader";
 
-interface ResponsiveBreakPointsProps {
+interface CategoryProductSliderProps {
   category: "Tshirt" | "Shoes" | "Hat";
 }
 
-function ResponsiveBreakPoints({ category }: ResponsiveBreakPointsProps) {
+function CategoryProductSlider({ category }: CategoryProductSliderProps) {
   const [products, setProducts] = useState<IProduct[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
@@ -86,10 +86,10 @@ function ResponsiveBreakPoints({ category }: ResponsiveBreakPointsProps) {
           },
         }}
         modules={[Pagination, Autoplay]}
-        className={styles.mySwiper}
+        className="w-full text-right border-t-2 border-[#6C757D]"
       >
         {products.map((product) => (
-          <SwiperSlide className={styles.slide} key={product.id}>
+          <SwiperSlide className={`${styles.slide} dark:bg-mist-900 dark:text-gray-300`} key={product.id}>
             <Link to={`/product/${product.id}`}>
               <img
                 src={product.image}
@@ -108,4 +108,4 @@ function ResponsiveBreakPoints({ category }: ResponsiveBreakPointsProps) {
   );
 }
 
-export default ResponsiveBreakPoints;
+export default CategoryProductSlider;

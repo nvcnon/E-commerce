@@ -48,7 +48,7 @@ const CartPage = () => {
 
         {/* خلاصه سفارش */}
         <div className="order-2 lg:order-1 lg:col-span-5 lg:mr-10">
-          <div className="rounded-2xl p-4 text-right text-gray-700 shadow-xl sm:p-5">
+          <div className="dark:bg-mist-900 dark:text-gray-100 rounded-2xl p-4 text-right text-gray-700 shadow-xl sm:p-5">
             <p className="border-b border-b-gray-300 py-4 sm:py-5">
               قیمت کالا ها: {totalPrice.toLocaleString()} تومان
             </p>

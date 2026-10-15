@@ -5,12 +5,7 @@ type TProductItem = IProduct;
 const ProductItem = ({ image, title, price }: TProductItem) => {
   return (
     <div
-      className="shadow-2xl rounded-br-2xl hover:opacity-80"
-      style={{
-        // boxShadow: "1px 1px 1px #495057",
-        // backgroundColor: "#FFFFFF",
-        color: "#343A40",
-      }}
+      className="shadow-2xl rounded-br-2xl hover:opacity-80 dark:bg-mist-900 dark:text-gray-100"
     >
       <img className="h-100 w-full" src={image} alt="" />
 

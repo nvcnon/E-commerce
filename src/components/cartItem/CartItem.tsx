@@ -25,7 +25,7 @@ const CartItem = ({ id, qty }: ICartItem) => {
   }, []);
 
   return (
-    <div className="my-3 flex h-30 flex-row-reverse items-center rounded-l-2xl pl-2 text-right shadow-xl sm:pl-5">
+    <div className="hover:opacity-80 dark:bg-mist-900 dark:text-gray-100 my-3 flex h-30 flex-row-reverse items-center rounded-l-2xl pl-2 text-right shadow-xl sm:pl-5">
       <Link
         className="shrink-0"
         to={`/product/${id}`}

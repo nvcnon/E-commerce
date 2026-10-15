@@ -6,9 +6,9 @@ import ProcuctPage from "./pages/productPage/ProcuctPage";
 import CartPage from "./pages/cartPage/CartPage";
 import PrivateRoute from "./components/privateRoute/PrivateRoute";
 import Login from "./pages/login/Login";
-import { useAuthenticateContext } from "./context/authenticateContext";
+import { useAuthenticateContext } from "./context/AuthenticateContext";
 import Magazine from "./pages/magazine/Magazine";
-import MagazineItem from "./pages/magazineItem/MagazineItem";
+import MagazinePage from "./pages/magazinePage/MagazinePage";
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/store" element={<Store />} />
             <Route path="/magazine" element={<Magazine />} />
-            <Route path="/magazine/:id" element={<MagazineItem />} />
+            <Route path="/magazine/:id" element={<MagazinePage />} />
             
             <Route path="/product/:id" element={<ProcuctPage />} />
             <Route path="/login" element={isLogin ? <Navigate to='/'/> : <Login /> } />

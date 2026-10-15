@@ -40,14 +40,13 @@ const Magazine = () => {
 
   return (
     <Container>
-      {/* دو مقاله اول */}
       <div className="grid grid-cols-1 gap-4 p-4 text-right sm:grid-cols-2 lg:gap-5 lg:p-5">
         {magazine
           .filter((item) => [1, 2].includes(parseInt(item.id)))
           .map((item) => (
             <div
               key={item.id}
-              className="overflow-hidden rounded-lg p-4 shadow"
+              className="dark:bg-mist-900 dark:text-gray-300 overflow-hidden rounded-lg p-4 shadow"
             >
               <Link to={`/magazine/${item.id}`} className="block">
                 <img
@@ -64,7 +63,7 @@ const Magazine = () => {
                   {item.date}
                 </span>
 
-                <p className="line-clamp-3 text-sm leading-7 text-gray-600">
+                <p className="dark:text-gray-400 line-clamp-3 text-sm leading-7 text-gray-600">
                   {item.description}
                 </p>
               </Link>
@@ -79,7 +78,7 @@ const Magazine = () => {
           .map((item) => (
             <div
               key={item.id}
-              className="overflow-hidden rounded-lg p-4 shadow"
+              className="dark:bg-mist-900 dark:text-gray-300 overflow-hidden rounded-lg p-4 shadow"
             >
               <Link to={`/magazine/${item.id}`} className="block">
                 <img
@@ -96,7 +95,7 @@ const Magazine = () => {
                   {item.date}
                 </span>
 
-                <p className="line-clamp-3 text-sm leading-7 text-gray-600">
+                <p className="dark:text-gray-400 line-clamp-3 text-sm leading-7 text-gray-600">
                   {item.description}
                 </p>
               </Link>

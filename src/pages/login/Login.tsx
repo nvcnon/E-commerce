@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuthenticateContext } from "../../context/authenticateContext";
+import { useAuthenticateContext } from "../../context/AuthenticateContext";
 
 const Login = () => {
   const { handleLogin } = useAuthenticateContext();
