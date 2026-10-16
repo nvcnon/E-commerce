@@ -75,7 +75,7 @@ const Store = () => {
               }}
               className={`rounded-lg px-4 py-2 text-sm transition-colors sm:px-5 sm:text-base ${
                 selectedCategory === category
-                  ? "bg-black text-white"
+                  ? "bg-gray-800 text-white dark:bg-gray-700"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-200 dark:bg-[#212529] dark:text-white dark:hover:bg-gray-600"
               }`}
             >

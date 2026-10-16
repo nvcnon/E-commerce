@@ -28,10 +28,10 @@ const ProductPage = () => {
   return (
     <Container>
       <div
-        className="mt-10 grid w-full grid-cols-1 gap-5 rounded-br-2xl p-4 sm:p-6 lg:mt-15 lg:grid-cols-12 lg:p-8"
+        className="bg-[#E9ECEF] dark:bg-mist-900 dark:text-gray-100 mt-10 grid w-full grid-cols-1 gap-5 rounded-br-2xl p-4 sm:p-6 lg:mt-15 lg:grid-cols-12 lg:p-8"
         style={{
           boxShadow: "1px 1px 1px #495057",
-          backgroundColor: "#E9ECEF",
+          // backgroundColor: "#E9ECEF",
         }}
       >
         <div className="order-1 flex items-center justify-center lg:order-2 lg:col-span-5">

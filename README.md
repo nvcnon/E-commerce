@@ -243,7 +243,6 @@ Implemented features include:
 | `/product/:id`  | Product Details  |
 | `/cart`         | Shopping Cart    |
 | `/login`        | Login            |
-| `/about`        | About            |
 | `/magazine`     | Magazine         |
 | `/magazine/:id` | Magazine Article |
 
