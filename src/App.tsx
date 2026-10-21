@@ -1,7 +1,9 @@
+import Navbar from "./components/ui/Navbar"
+
 function App() {
   return (
     <>
-      web page
+      <Navbar /> 
     </>
   )
 }
