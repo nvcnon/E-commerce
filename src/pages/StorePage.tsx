@@ -1,7 +1,9 @@
+import ProductList from "../features/products/ProductList";
+
 const StorePage = () => {
     return (
         <div>
-            store page
+            <ProductList /> 
         </div>
     );
 }
