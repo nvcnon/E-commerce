@@ -1,16 +1,18 @@
-import Container from "./components/layout/Container"
-import Navbar from "./components/layout/Navbar"
-import HeroBanner from "./features/home/components/HeroBanner"
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+import StorePage from "./pages/StorePage";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-    <Container>
-      <Navbar /> 
-    </Container>
-      <HeroBanner /> 
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/store" element={<StorePage />} />
+        </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
