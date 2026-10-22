@@ -1,14 +1,18 @@
-const ProductCard = () => {
+import type { Product } from "../../types/product";
+
+type ProductCard = Product
+
+const ProductCard = ({image1, title, price} : ProductCard) => {
   return (
     <section className="shadow-xl">
       <img
-        src="https://iranian-style.com/wp-content/uploads/2026/10/H52026-7-833x1000.webp"
+        src={image1}
         alt="product"
       />
       <div className="flex justify-between p-3 sm:p-4 lg:p-5">
         <div className="min-w-0">
-          <h2 className="mb-2 font-medium truncate">عنوان محصول</h2>
-          <p className="my-2">2,500,000 تومان</p>
+          <h2 className="mb-2 font-medium truncate">{title}</h2>
+          <p className="my-2">{price} تومان</p>
           <div className="flex my-2">
             <img
               className="w-5"

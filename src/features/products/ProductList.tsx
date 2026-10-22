@@ -1,14 +1,26 @@
+import { useEffect, useState } from "react";
 import Container from "../../components/layout/Container";
 import ProductCard from "./ProductCard";
+import { getProducts } from "../../services/api";
+import type { Product } from "../../types/product";
 
 const ProductList = () => {
+  const [product, setProduct] = useState<Product[]>([]);
+
+  useEffect(() => {
+    getProducts().then((data) => {
+      setProduct(data);
+    });
+  }, []);
+
   return (
     <Container>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-2 mt-7">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {
+          product.map(item => (
+            <ProductCard key={item.id} {...item} />
+          ))
+        }
       </div>
     </Container>
   );
