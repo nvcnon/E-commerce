@@ -1,0 +1,875 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "بلوز دورس سه نخ B52039",
+      "price": "2,205,000",
+      "size1": "سایز 1 : قد 69 , عرض 56 , دور بازو 42 , قد آستین 55 سانتی متر",
+      "size2": "سایز 2 : قد 70 , عرض 59 , دور بازو 44 , قد آستین 57 سانتی متر",
+      "size3": "سایز 3 : قد 74 , عرض 63 , دور بازو 44 , قد آستین 57 سانتی متر",
+      "description": "شناسه محصول: B52039",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/B52039-5-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/B52039-1.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "تیشرت مردانه ماکان T32368",
+      "price": "685,000",
+      "size": "سایز : L , XL , 2XL , 3XL",
+      "size1": "قد 74 , عرض 57 , دور بازو 42 سانتی متر",
+      "size2": "قد 77 , عرض 59 , دور بازو 46 سانتی متر",
+      "size3": "قد 79 , عرض 61 , دور بازو 48 سانتی متر",
+      "size4": "قد 81 , عرض 63 , دور بازو 50 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2025/05/T32368-4.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2025/05/T32368-1.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2025/05/T32368-6.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "شومیز پاییزه فوتر کش پشت پیله A410055",
+      "price": "2,240,000",
+      "size": "free size",
+      "size1": "قد 62 , عرض 54 , دور بازو 42 , قد آستین 40 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/A410055-3-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/A410055-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2025/12/2-1.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "بلوز بچگانه سلانیک (سایز 3,4) B55129",
+      "price": "770,000",
+      "size1": "قد 52 , عرض 40 , دور بازو 28 , قد آستین 40 سانتی متر",
+      "size2": "قد 57 , عرض 44 , دور بازو 28 , قد آستین 44 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/B55129-5-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/B55129-4-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/B55129-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "بلوز دورس نیم زیپ B42122",
+      "price": "1,650,000",
+      "size1": "قد 70 , عرض 56 , دور بازو 42 , قد آستین 54 سانتی متر",
+      "size2": "قد 73 , عرض 59 , دور بازو 44 , قد آستین 54 سانتی متر",
+      "size3": "قد 75 , عرض 61 , دور بازو 44 , قد آستین 56 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/B42122-8-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/B42122-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B42122-3-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },{
+      "id": "6",
+      "title": "سویشرت بچگانه چهارخونه پشمی (سایز 3-4) S55015",
+      "price": "750,000",
+      "size1": "قد 46 , عرض 42 , قد آستین 37 , دور بازو 34 سانتی متر",
+      "size2": "قد 49 , عرض 47 , قد آستین 39 , دور بازو 38 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/S55015-5-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/S55009-2-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/S55009-4-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "پیراهن کتان دو جیب P52058",
+      "price": "1,615,000",
+      "size1": "قد 70 , عرض 56 , دور بازو 40 , قد آستین 58 سانتی متر",
+      "size2": "قد 71 , عرض 60 , دور بازو 42 , قد آستین 59 سانتی متر",
+      "size3": "قد 72 , عرض 63 , دور بازو 44 , قد آستین 59 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/P52058-5-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/P52058-3-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/P52058-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "تیشرت لانگ مردانه پنبه T52320",
+      "price": "800,000",
+      "size1": "قد 70 , عرض 54 , دور بازو 42 سانتی متر",
+      "size2": "قد 71 , عرض 58 , دور بازو 44 سانتی متر",
+      "size3": "قد 72 , عرض 60 , دور بازو 46 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/08/T52485-8-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/08/T52485-3-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T52485-5-1-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/08/T52485-2-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "شومیز پاییزه صحرا چهارخونه پشمی A511145",
+      "price": "1,050,000",
+      "size1": "قد 62 , عرض 58 , دور بازو 42 , قد آستین 47 سانتی متر",
+      "size2": "قد 64 , عرض 69 , دور بازو 44 , قد آستین 47 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/A511145-10-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/A511145-4-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/A511145-6-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "مانتو کتی پاییزه خز M51079",
+      "price": "2,075,000",
+      "size1": "قد 61 , عرض 59 , دور بازو 44 , قد آستین 25 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/M51079-7-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/M51079-3-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/M51079-2-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "بلوز ساده مردانه سلانیک B52015",
+      "price": "2,180,000",
+      "size1": "قد 69 , عرض 54 , دور بازو 48 سانتی متر",
+      "size2": "قد 70 , عرض 57 , دور بازو 50 سانتی متر",
+      "size3": "قد 71 , عرض 61 , دور بازو 52 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/B52015-7-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/B52015-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B52015-3-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/09/B52015-10-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "شکت بچگانه چهارخونه پشمی (3-4) C55006",
+      "price": "650,000",
+      "size1": "قد 43 , عرض 36 , دور بازو 32 , قد آستین 31 سانتی متر",
+      "size2": "قد 46 , عرض 39 , دور بازو 34 , قد آستین 34 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/C55006-6-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/C55005-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/C55005-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "هودی بچگانه دونخ خارخورده (سایز 1-2) H55014",
+      "price": "740,000",
+      "size1": "قد 40 , عرض 35 , دور بازو 24 , قد آستین 30 سانتی متر",
+      "size2": "قد 46 , عرض 36 , دور بازو 24 , قد آستین 34 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/H55014-12-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/H55014-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/H55014-6-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "شومیز راه راه آستین مارک دار A51295",
+      "price": "420,000",
+      "size1": "free size",
+      "size2": "قد 55 , عرض 57 , دور بازو 42 , قد آستین 31 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/A51295-5-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/A51295-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/A51295-3-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "تیشرت دورس T52203",
+      "price": "815,000",
+      "size1": "قد 72 , عرض 54 , دور بازو 38 , قد آستین 23 سانتی متر",
+      "size2": "قد 73 , عرض 59 , دور بازو 44 , قد آستین 24 سانتی متر",
+      "size3": "قد 74 , عرض 62 , دور بازو 44 , قد آستین 25 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/08/T52340-6-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/08/T52203-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T52203-2-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "تیشرت لانگ مردانه پنبه وینیلون T52259",
+      "price": "850,000",
+      "size1": "قد 71 , عرض 56 , دور بازو 42 , قد آستین 21 سانتی متر",
+      "size2": "قد 72 , عرض 59 , دور بازو 42 , قد آستین 22 سانتی متر",
+      "size3": "قد 73 , عرض 62 , دور بازو 42 , قد آستین 23 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/08/T52259-9-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/08/T52259-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T52259-4-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "شومیز پاییزه باکسی فوتر کش A410056",
+      "price": "2,020,000",
+      "size1": "free size",
+      "size2": "قد 59 , عرض 57 , دور بازو 36 , قد آستین 28 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/A410056-4-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/A410056-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/A410056-6-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "شومیز کتان کاغذی A311107",
+      "price": "955,000",
+      "size1": "قد 80 , عرض 49 , قد آستین 41 , دور بازو 38 سانتی متر",
+      "size2": "قد 80 , عرض 52 , قد آستین 41 , دور بازو 38 سانتی متر",
+      "size3": "قد 82 , عرض 53 , قد آستین 42 , دور بازو 40 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/A311107-2-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/A311107-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/A311107-4-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "تیشرت دورس تیکه دوزی T52250",
+      "price": "910,000",
+      "size1": "قد 70 , عرض 58 , دور بازو 46 , قد 22 سانتی متر",
+      "size2": "قد 73 , عرض 60 , دور بازو 46 , قد 23 سانتی متر",
+      "size3": "قد 74 , عرض 62 , دور بازو 46 , قد 23 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/08/T52250-2-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/08/T52250-5-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T52250-4-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/08/T52250-3-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "شومیز یارا کرپ الیزه A511144",
+      "price": "",
+      "size1": "free size",
+      "size2": "قد 67 , عرض 61 , دور بازو 38 , قد آستین 28 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/A511144-1-1-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/A511144-10-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/A511144-6-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/09/A511144-2-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "شومیز راه راه نسیم A51146",
+      "price": "705,000",
+      "size1": "free size",
+      "size2": "قد 64 , عرض 54 , دور بازو 40 , قد آستین 32 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/05/A51146-6.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/05/A51146-3.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/05/A51146-7.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "تیشرت جیبدار مردانه پنبه کریستال T42491",
+      "price": "645,000",
+      "size1": "قد 72 , عرض 56 , دور بازو 38 , قد آستین 26 سانتی متر",
+      "size2": "قد 72 , عرض 58 , دور بازو 40 , قد آستین 27 سانتی متر",
+      "size3": "قد 73 , عرض 60 , دور بازو 40 , قد آستین 29 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/08/T42491-9-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/08/T42491-7-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T42491-6-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "تیشرت لانگ مردانه گلکسی کاتری رونالدو T52352",
+      "price": "1,065,000",
+      "size1": "قد 70 , عرض 57 , دور بازو 38 سانتی متر",
+      "size2": "قد 75 , عرض 60 , دور بازو 40 سانتی متر",
+      "size3": "قد 78 , عرض 65 , دور بازو 44 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/T52352-7-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/T52352-3-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/T52352-1-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/09/T52352-4-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "بلوز بچگانه دورس B45084",
+      "price": "440,000",
+      "size1": "قد 50 , عرض 42 , دور بازو 30 سانتی متر",
+      "size2": "قد 54 , عرض 43 , دور بازو 32 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2025/11/6-30-1.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2025/11/2-88.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2025/11/3-67.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "کت خلبانی سانتانا K41902",
+      "price": "2,095,000",
+      "size1": "free size",
+      "size2": "قد 57 , عرض 65 , دور بازو 46 , قد آستین 39 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/02/K41902-5-1-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/02/K41902-1-1-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/02/K41902-3-1-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/02/K41902-4-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "بلوز ساده گلکسی کاتری B52050",
+      "price": "1,320,000",
+      "size1": "قد 68 , عرض 51 , دور بازو 42 , قد آستین 50 سانتی متر",
+      "size2": "قد 69 , عرض 54 , دور بازو 44 , قد آستین 52 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/B52050-6-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/B52050-4-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/B52050-5-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "کاپشن جیب زیپی C41142",
+      "price": "2,100,000",
+      "size1": "Free size",
+      "size2": "قد 59 , عرض 61 , دور بازو 44 , قد آستین 53 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/C41142-1-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/C41142-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/C41142-3-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/09/C41142-4-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "بلوز بافت پشت بلند آستین پیرسینگی B10031",
+      "price": "800,000",
+      "size1": "free size",
+      "size2": "قد جلو 67 , قد پشت 57 , عرض 55 , دور بازو 38 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/B10031-11-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/B10031-6-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B10031-8-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/09/B10031-5-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "تیشرت تک گان T55001",
+      "price": "365,000",
+      "size1": "قد 50 , عرض 37 , دور بازو 24 سانتی متر",
+      "size2": "قد 55 , عرض 39 , دور بازو 28 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/06/T55001-1.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/06/T55001-2.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": " بلوز بچگانه پسرانه دو نخ خارخورده سایز(4-3) B55216",
+      "price": "695,000",
+      "size1": "قد 50 , عرض 40 , دور بازو 24 , قد آستین 39 سانتی متر",
+      "size2": "قد 49 , عرض 42 , دور بازو 28 , قد آستین 44 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/B55216-9-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/B55216-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B55216-3-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "بلوز دورس بچگانه چهارخونه سایز (3-4) B55021",
+      "price": "745,000",
+      "size1": "قد 48 , عرض 38 , دور بازو 28 سانتی متر",
+      "size2": "قد 53 , عرض 41 , دور بازو 28 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/09/B55021-6-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/09/B55021-2-833x1000.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B55021-1-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "تیشرت بچگانه پشت و پیش چاپ T55101",
+      "price": "368,000",
+      "size1": "قد 52 , عرض 34 , دور بازو 30 سانتی متر",
+      "size2": "قد 57 , عرض 39 , دور بازو 32 سانتی متر",
+      "size3": "قد 63 , عرض 43 , دور بازو 36 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/06/T55101-site-3.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/06/T55101-site-1.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/B52050-5-833x1000.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": " تیشرت تک جودون (سایز کودک و نوجوان) T45251",
+      "price": "365,000",
+      "size1": "قد 51 , عرض 36 , دور بازو 28 سانتی متر",
+      "size2": "قد 58 , عرض 41 , دور بازو 30 سانتی متر",
+      "category": "kids",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/04/5-7.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/04/T45251-8.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/04/T45251-13.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "پافر سیلیکونی مردانه I30004",
+      "price": "1,700,000",
+      "size1": "قد 69 , عرض 57 سانتی متر",
+      "size2": "قد 70 , عرض 58 سانتی متر",
+      "size3": "قد 71 , عرض 59 سانتی متر",
+      "category": "men",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/01/I3004-SITE-4.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/01/I3004-SITE-1.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/01/I3004-SITE-3.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    }
+  ]
+}
