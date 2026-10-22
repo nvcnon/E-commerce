@@ -3,6 +3,7 @@ import Container from "../components/layout/Container";
 import { useEffect, useState } from "react";
 import { getProduct } from "../services/api";
 import type { Product } from "../types/product";
+import { useShoppingCartContext } from "../contexts/ShoppingCartContext";
 
 const ProductPage = () => {
   const params = useParams<{ id: string }>();
@@ -13,18 +14,28 @@ const ProductPage = () => {
   const [selectedColor, setSelectedColor] = useState<string | null | undefined>(
     null,
   );
+  const productId = parseInt(params.id as string);
+  const {
+    handleIncreaseProductQty,
+    handleDecreaseProductQty,
+    getProductQty,
+  } = useShoppingCartContext();
 
   useEffect(() => {
-    getProduct(params.id as string).then((data) => {
-      setProduct(data);
-      setMainImage(data.image1);
+    getProduct(params.id as string)
+      .then((data) => {
+        setProduct(data);
+        setMainImage(data.image1);
 
-      setSubImages(
-        [data.image2, data.image3, data.image4].filter(
-          (image): image is string => Boolean(image),
-        ),
-      );
-    });
+        setSubImages(
+          [data.image2, data.image3, data.image4].filter(
+            (image): image is string => Boolean(image),
+          ),
+        );
+      })
+      .catch((error) => {
+        console.error("Failed to fetch product:", error);
+      });
   }, [params.id]);
 
   const handleImageChange = (selectedImage: string) => {
@@ -124,13 +135,23 @@ const ProductPage = () => {
             <h3 className="mb-3 font-semibold">تعداد</h3>
 
             <div className="flex w-fit items-center rounded border border-gray-300">
-              <button className="px-4 py-2" type="button">
+              <button
+                onClick={() => {
+                  handleDecreaseProductQty(productId);
+                }}
+                className="px-4 py-2"
+                type="button"
+              >
                 -
               </button>
 
-              <span className="px-4">1</span>
+              <span className="px-4">{getProductQty(productId)}</span>
 
-              <button className="px-4 py-2" type="button">
+              <button
+                onClick={() => handleIncreaseProductQty(productId)}
+                className="px-4 py-2"
+                type="button"
+              >
                 +
               </button>
             </div>

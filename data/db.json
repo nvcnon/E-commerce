@@ -869,6 +869,58 @@
           "hex": "#808080"
         }
       ]
+    },
+    {
+      "id": "35",
+      "title": "پالتو بلند ساناز فوتر روناک P51043",
+      "price": "2,628,000 ",
+      "size1": "free size",
+      "size2": "قد 103 , عرض 53 , قد آستین 55 , دور بازو 40 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/10/P51043-4-833x1000.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/10/3-47.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/P51043-5-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/10/2-60.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "شومیز اطلس پشت پیله A51012",
+      "price": "585,000",
+      "size1": "free size",
+      "size2": "قد 62 , عرض 65 , دور بازو 46 سانتی متر",
+      "category": "women",
+      "image1": "https://iranian-style.com/wp-content/uploads/2026/05/A51012-6.webp",
+      "image2": "https://iranian-style.com/wp-content/uploads/2026/05/A51012-3.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/05/A51012-4.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/05/A51012-5.webp",
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#000000"
+        },
+        {
+          "name": "سفید",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "طوسی",
+          "hex": "#808080"
+        }
+      ]
     }
   ]
 }
