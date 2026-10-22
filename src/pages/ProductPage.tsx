@@ -15,11 +15,8 @@ const ProductPage = () => {
     null,
   );
   const productId = parseInt(params.id as string);
-  const {
-    handleIncreaseProductQty,
-    handleDecreaseProductQty,
-    getProductQty,
-  } = useShoppingCartContext();
+  const { handleIncreaseProductQty, handleDecreaseProductQty, getProductQty } =
+    useShoppingCartContext();
 
   useEffect(() => {
     getProduct(params.id as string)
