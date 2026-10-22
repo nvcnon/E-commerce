@@ -1,11 +1,15 @@
+import { useSearchParams } from "react-router-dom";
 import ProductList from "../features/products/ProductList";
 
 const StorePage = () => {
-    return (
-        <div>
-            <ProductList /> 
-        </div>
-    );
-}
+  const [searchParams] = useSearchParams();
+  const category = searchParams.get("category");
+
+  return (
+    <div>
+      <ProductList category={category} />
+    </div>
+  );
+};
 
 export default StorePage;
