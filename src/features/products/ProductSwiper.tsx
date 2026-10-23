@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import ProductCard from "./ProductCard";
 import type { Product } from "../../types/product";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 interface ProductSwiperProps {
   products: Product[];
@@ -10,7 +11,7 @@ interface ProductSwiperProps {
 const ProductSwiper = ({ products }: ProductSwiperProps) => {
   return (
     <Swiper
-    className="my-7"
+      className="my-7"
       modules={[Autoplay]}
       slidesPerView={2}
       spaceBetween={10}
@@ -28,7 +29,9 @@ const ProductSwiper = ({ products }: ProductSwiperProps) => {
     >
       {products.map((product) => (
         <SwiperSlide key={product.id}>
-          <ProductCard {...product} />
+          <Link className="" to={`/product/${product.id}`}>
+            <ProductCard {...product} />
+          </Link>
         </SwiperSlide>
       ))}
     </Swiper>

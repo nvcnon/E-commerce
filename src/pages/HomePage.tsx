@@ -4,6 +4,7 @@ import ProductSwiper from "../features/products/ProductSwiper";
 import { getProducts } from "../services/api";
 import type { Product } from "../types/product";
 import Container from "../components/layout/Container";
+import CategorySection from "../features/home/components/CategorySection";
 
 const HomePage = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -28,11 +29,18 @@ const HomePage = () => {
     <div>
       <HeroBanner />
       <Container>
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b-2 py-4 border-green-800 shadow shadow-green-100 px-5 rounded-b-md text-green-900">مردانه</h1>
+        <CategorySection />
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4 border-green-900 shadow shadow-green-100 px-5 rounded-b-md text-green-900">
+          مردانه
+        </h1>
         <ProductSwiper products={menProducts} />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b-2 py-4 border-green-800 shadow shadow-green-100 px-5 rounded-b-md text-green-900">زنانه</h1>
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4 border-green-900 shadow shadow-green-100 px-5 rounded-b-md text-green-900">
+          زنانه
+        </h1>
         <ProductSwiper products={womenProducts} />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b-2 py-4 border-green-800 shadow shadow-green-100 px-5 rounded-b-md text-green-900">بچگانه</h1>
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4 border-green-900 shadow shadow-green-100 px-5 rounded-b-md text-green-900">
+          بچگانه
+        </h1>
         <ProductSwiper products={kidsProducts} />
       </Container>
     </div>
