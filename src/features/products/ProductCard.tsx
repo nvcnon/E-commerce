@@ -9,10 +9,10 @@ const ProductCard = ({image1, title, price} : ProductCard) => {
         src={image1}
         alt="product"
       />
-      <div className="h-34 my-3 flex justify-between p-3 sm:p-4 lg:p-5">
+      <div className="h-30 my-3 flex justify-between p-3 sm:p-4 lg:p-5">
         <div className="min-w-0">
           <h2 className="mb-2 font-medium truncate">{title}</h2>
-          <p className="my-2">{price} تومان</p>
+          <p className="my-4">{price} تومان</p>
         </div>
         <svg
           className="w-12 shrink-0"
