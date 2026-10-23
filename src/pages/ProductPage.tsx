@@ -3,7 +3,7 @@ import Container from "../components/layout/Container";
 import { useEffect, useState } from "react";
 import { getProduct } from "../services/api";
 import type { Product } from "../types/product";
-import { useShoppingCartContext } from "../contexts/ShoppingCartContext";
+import { useCartContext } from "../features/cart/context/CartContext";
 
 const ProductPage = () => {
   const params = useParams<{ id: string }>();
@@ -15,8 +15,13 @@ const ProductPage = () => {
     null,
   );
   const productId = parseInt(params.id as string);
-  const { handleIncreaseProductQty, handleDecreaseProductQty, getProductQty } =
-    useShoppingCartContext();
+  const {
+    cartItem,
+    handleIncreaseProductQty,
+    handleDecreaseProductQty,
+    getProductQty,
+    handleRemoveProduct,
+  } = useCartContext();
 
   useEffect(() => {
     getProduct(params.id as string)
@@ -154,9 +159,25 @@ const ProductPage = () => {
             </div>
           </div>
 
-          <button className="bg-gray-500 text-white w-full py-2 my-7 md:my-10 lg:my-15 rounded">
-            افزودن به سبد خرید
-          </button>
+          {cartItem.some((item) => item.id === productId) ? (
+            <button
+              onClick={() => {
+                handleRemoveProduct(productId);
+              }}
+              className="bg-red-700 text-white w-full py-2 my-7 md:my-10 lg:my-15 rounded"
+            >
+              حذف از سبد خرید
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                handleIncreaseProductQty(productId);
+              }}
+              className="bg-gray-500 text-white w-full py-2 my-7 md:my-10 lg:my-15 rounded"
+            >
+              افزودن به سبد خرید
+            </button>
+          )}
         </div>
       </div>
     </Container>

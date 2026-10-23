@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import ProductCard from "./ProductCard";
-import type { Product } from "../../types/product";
+import type { Product } from "../../../types/product";
 import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 

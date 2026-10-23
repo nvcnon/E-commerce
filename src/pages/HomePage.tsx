@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import HeroBanner from "../features/home/components/HeroBanner";
-import ProductSwiper from "../features/products/ProductSwiper";
+import ProductSwiper from "../features/products/components/ProductSwiper";
 import { getProducts } from "../services/api";
 import type { Product } from "../types/product";
 import Container from "../components/layout/Container";

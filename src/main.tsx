@@ -3,14 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import { BrowserRouter } from "react-router-dom";
-import { ShoppingCartProvider } from "./contexts/ShoppingCartContext.tsx";
+import { CartProvider } from "./features/cart/context/CartContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ShoppingCartProvider>
+    <CartProvider>
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </ShoppingCartProvider>
+    </CartProvider>
   </StrictMode>,
 );

@@ -1,13 +1,14 @@
 import React, { createContext, useContext } from "react";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import { useLocalStorage } from "../../../hooks/useLocalStorage";
 
-interface ShoppingCartContext {
+interface CartContext {
   cartItem: CartItem[];
   handleIncreaseProductQty: (id: number) => void;
   handleDecreaseProductQty: (id: number) => void;
   getProductQty: (id: number) => number;
+  handleRemoveProduct: (id: number) => void;
 }
-interface ShoppingCartProvider {
+interface CartProvider {
   children: React.ReactNode;
 }
 interface CartItem {
@@ -15,13 +16,13 @@ interface CartItem {
   qty: number;
 }
 
-const ShoppingCartContext = createContext({} as ShoppingCartContext);
+const CartContext = createContext({} as CartContext);
 
-export function useShoppingCartContext() {
-  return useContext(ShoppingCartContext);
+export function useCartContext() {
+  return useContext(CartContext);
 }
 
-export function ShoppingCartProvider({ children }: ShoppingCartProvider) {
+export function CartProvider({ children }: CartProvider) {
   const [cartItem, setCartItem] = useLocalStorage<CartItem[]>("cartItem", []);
 
   function handleIncreaseProductQty(id: number) {
@@ -54,16 +55,23 @@ export function ShoppingCartProvider({ children }: ShoppingCartProvider) {
     return cartItem.find((item) => item.id === id)?.qty || 0;
   }
 
+  function handleRemoveProduct(id: number) {
+    return setCartItem((currentItem) => {
+      return currentItem.filter((item) => item.id !== id);
+    });
+  }
+
   return (
-    <ShoppingCartContext.Provider
+    <CartContext.Provider
       value={{
         cartItem,
         handleIncreaseProductQty,
         handleDecreaseProductQty,
         getProductQty,
+        handleRemoveProduct,
       }}
     >
       {children}
-    </ShoppingCartContext.Provider>
+    </CartContext.Provider>
   );
 }

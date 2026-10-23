@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Container from "../../components/layout/Container";
+import Container from "../../../components/layout/Container";
 import ProductCard from "./ProductCard";
-import { getProducts } from "../../services/api";
-import type { Product } from "../../types/product";
+import { getProducts } from "../../../services/api";
+import type { Product } from "../../../types/product";
 import { Link } from "react-router-dom";
 
 interface ProductListProps {
