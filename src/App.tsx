@@ -5,18 +5,21 @@ import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
+import PrivateRoute from "./components/routes/PrivateRoute";
 
 function App() {
   return (
     <>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/store" element={<StorePage />} />
-          <Route path="/product/:id" element={<ProductPage />} />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/store" element={<StorePage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
+        <Route element={<PrivateRoute />}>
           <Route path="/cart" element={<CartPage />} />
-          <Route path="/login" element={<LoginPage />} />
-        </Routes>
+        </Route>
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
     </>
   );
 }

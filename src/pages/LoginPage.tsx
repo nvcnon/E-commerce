@@ -1,11 +1,11 @@
 import LoginForm from "../features/auth/components/LoginForm";
 
 const LoginPage = () => {
-    return (
-        <div className="">
-            <LoginForm />  
-        </div>
-    );
-}
+  return (
+    <div>
+      <LoginForm />
+    </div>
+  );
+};
 
 export default LoginPage;

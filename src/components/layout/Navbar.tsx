@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo/logoNav.png";
 import Container from "./Container";
+import { useAuthContext } from "../../features/auth/context/AuthContext";
 
 const Navbar = () => {
   const navItems = [
@@ -10,6 +11,8 @@ const Navbar = () => {
     { title: "بچگانه", path: "/store?category=kids" },
     { title: "وبلاگ", path: "/blog" },
   ];
+
+  const { handleLogOut } = useAuthContext();
 
   return (
     <nav className="gap-3 px-4 py-3 shadow-xl shadow-gray-100 sm:px-6 lg:px-10">
@@ -97,7 +100,10 @@ const Navbar = () => {
               </svg>
             </Link>
 
-            <button className="shrink-0 rounded-4xl px-3 py-2 text-sm transition-colors hover:bg-mist-300 sm:px-5 sm:py-3 sm:text-base lg:text-xl">
+            <button
+              onClick={handleLogOut}
+              className="shrink-0 rounded-4xl px-3 py-2 text-sm transition-colors hover:bg-mist-300 sm:px-5 sm:py-3 sm:text-base lg:text-xl"
+            >
               خروج
             </button>
           </div>
