@@ -24,7 +24,7 @@ const HeroBanner = () => {
         <SwiperSlide>
           <img
             className="h-full w-full object-cover"
-            src={slide1}
+            src={slide3}
             alt="مجموعه پاییزی و زمستانی"
           />
         </SwiperSlide>
@@ -40,7 +40,7 @@ const HeroBanner = () => {
         <SwiperSlide>
           <img
             className="h-full w-full object-cover"
-            src={slide3}
+            src={slide1}
             alt="مجموعه پاییزی و زمستانی"
           />
         </SwiperSlide>

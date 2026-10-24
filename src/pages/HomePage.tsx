@@ -30,15 +30,15 @@ const HomePage = () => {
       <HeroBanner />
       <Container>
         <CategorySection />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4 border-green-900 shadow shadow-green-100 px-5 rounded-b-md text-green-900">
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4  px-5 rounded-b-md text-gray-900">
           مردانه
         </h1>
         <ProductSwiper products={menProducts} />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4 border-green-900 shadow shadow-green-100 px-5 rounded-b-md text-green-900">
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4  px-5 rounded-b-md text-gray-900">
           زنانه
         </h1>
         <ProductSwiper products={womenProducts} />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4 border-green-900 shadow shadow-green-100 px-5 rounded-b-md text-green-900">
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4  px-5 rounded-b-md text-gray-900">
           بچگانه
         </h1>
         <ProductSwiper products={kidsProducts} />

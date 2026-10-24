@@ -1,9 +1,13 @@
-import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo/logoNav.png";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import logo from "../../assets/images/logo/logoNav.jpeg";
 import Container from "./Container";
 import { useAuthContext } from "../../features/auth/context/AuthContext";
 
 const Navbar = () => {
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const activeCategory = searchParams.get("category");
+
   const navItems = [
     { title: "فروشگاه", path: "/store" },
     { title: "مردانه", path: "/store?category=men" },
@@ -20,7 +24,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link to="/">
             <img
-              className="h-auto w-12 shrink-0 sm:w-14 lg:w-17.5"
+              className="h-auto w-12 shrink-0 sm:w-14 lg:w-17.5 rounded-2xl ml-3"
               src={logo}
               alt="The Shop Creative"
             />
@@ -28,19 +32,37 @@ const Navbar = () => {
 
           <div className="min-w-0 flex-1 overflow-x-auto md:flex-none">
             <ul className="flex w-max items-center rounded-4xl bg-mist-100 text-sm sm:text-base lg:text-xl">
-              {navItems.map((item) => (
-                <li
-                  key={item.path}
-                  className="shrink-0 rounded-4xl px-3 py-2 transition-colors hover:bg-mist-300 sm:px-4 sm:py-3 lg:px-5"
-                >
-                  <Link
-                    to={item.path}
-                    className="block rounded-4xl px-3 py-2 sm:px-4 sm:py-3 lg:px-5"
+              {navItems.map((item) => {
+                const isActive =
+                  item.path === "/store"
+                    ? location.pathname === "/store" && !activeCategory
+                    : item.path === "/blog"
+                      ? location.pathname === "/blog"
+                      : location.pathname === "/store" &&
+                        activeCategory ===
+                          new URLSearchParams(item.path.split("?")[1]).get(
+                            "category",
+                          );
+
+                return (
+                  <li
+                    key={item.path}
+                    className="shrink-0 rounded-4xl px-3 py-2 transition-colors hover:bg-mist-300 sm:px-4 sm:py-3 lg:px-5"
                   >
-                    {item.title}
-                  </Link>
-                </li>
-              ))}
+                    <NavLink
+                      key={item.path}
+                      to={item.path}
+                      className={`pb-2 border-b-2 transition-colors ${
+                        isActive
+                          ? "border-black text-black"
+                          : "border-transparent text-gray-500 hover:text-black"
+                      }`}
+                    >
+                      {item.title}
+                    </NavLink>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
