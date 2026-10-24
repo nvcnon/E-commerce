@@ -26,6 +26,14 @@ This project demonstrates practical frontend development skills through reusable
 
 ### 🛒 Shopping Cart
 
+![Shopping Cart - Mobile](./screenshots/cart.png)
+
+
+### 🔐 Login Page
+
+![Login Page - Mobile](./screenshots/login.png)
+
+
 ## ✨ Features
 
 - Product listing and product details
