@@ -90,7 +90,7 @@ const ProductPage = () => {
           <h1 className="text-xl mt-4 md:mt-6 lg:text-3xl lg:mt-11">
             {product?.title}
           </h1>
-          <p className="my-4 md:mt-7 lg:text-xl">{product?.price}</p>
+          <p className="my-4 md:mt-7 lg:text-xl">{product?.price} تومان</p>
           <h3 className="font-semibold">انتخاب رنگ</h3>
           <div className="flex gap-3 mb-4 mt-3">
             {product?.colors?.map((color) => (

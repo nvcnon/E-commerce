@@ -41,11 +41,12 @@ const CartItem = ({ id, qty }: CartItem) => {
         {product?.title}
       </h3>
 
+      
       <button
         onClick={() => {
           handleIncreaseProductQty(id);
         }}
-        className="hover:opacity-80 mr-auto mx-1 h-5 w-5 rounded bg-gray-500 text-sm text-white sm:mx-3 sm:w-10 sm:h-10 sm:text-base"
+        className="hover:opacity-60 text-gray-500 md:text-2xl mr-auto mx-3 h-5 w-5 rounded border border-gray-400 text-sm sm:mx-5 sm:w-10 sm:h-10 sm:text-base"
       >
         +
       </button>
@@ -58,7 +59,7 @@ const CartItem = ({ id, qty }: CartItem) => {
         onClick={() => {
           handleDecreaseProductQty(id);
         }}
-        className="hover:opacity-80 mx-1 h-5 w-5 rounded bg-gray-500 text-sm text-white sm:mx-3 sm:w-10 sm:text-base sm:h-10"
+        className="hover:opacity-60 text-gray-500 md:text-2xl mx-3 h-5 w-5 rounded border border-gray-400 text-sm sm:mx-5 sm:w-10 sm:text-base sm:h-10"
       >
         -
       </button>
@@ -67,10 +68,10 @@ const CartItem = ({ id, qty }: CartItem) => {
         onClick={() => {
           handleRemoveProduct(id);
         }}
-        className="hover:opacity-80 mx-1 flex h-5 w-10 items-center justify-center rounded-lg bg-red-700 sm:mx-3 sm:h-10 sm:w-16 sm:rounded-xl"
+        className="hover:opacity-60 mx-1 flex h-5 w-10 items-center  justify-center sm:mx-3 sm:h-10 sm:w-16 sm:rounded-xl"
       >
         <svg
-          className="h-5 w-4 fill-white sm:h-6 sm:w-6"
+          className="h-6 w-6 fill-gray-500 lg:h-8 lg:w-8"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
         >

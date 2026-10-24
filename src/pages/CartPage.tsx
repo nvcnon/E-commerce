@@ -55,7 +55,7 @@ const CartPage = () => {
               مبلغ قابل پرداخت: {payablePrice.toLocaleString()} تومان
             </p>
 
-            <button className="my-5 h-11 w-full rounded-xl bg-gray-500 text-white transition-colors hover:bg-gray-600 sm:my-7">
+            <button className="my-5 h-11 w-full rounded bg-gray-500 text-white transition-colors border-b hover:bg-gray-600 sm:my-7">
               ادامه فرایند خرید
             </button>
           </div>
