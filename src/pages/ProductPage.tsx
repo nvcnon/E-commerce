@@ -164,7 +164,7 @@ const ProductPage = () => {
               onClick={() => {
                 handleRemoveProduct(productId);
               }}
-              className="bg-red-700 text-white w-full py-2 my-7 md:my-10 lg:my-15 rounded"
+              className="bg-gray-500 text-white w-full py-2 my-7 md:my-10 lg:my-15 rounded"
             >
               حذف از سبد خرید
             </button>
