@@ -1,9 +1,10 @@
 import { useParams } from "react-router-dom";
 import Container from "../components/layout/Container";
 import { useEffect, useState } from "react";
-import { getProduct } from "../services/api";
+import { getProduct, getProducts } from "../services/api";
 import type { Product } from "../types/product";
 import { useCartContext } from "../features/cart/context/CartContext";
+import ProductSwiper from "../features/products/components/ProductSwiper";
 
 const ProductPage = () => {
   const params = useParams<{ id: string }>();
@@ -15,6 +16,7 @@ const ProductPage = () => {
     null,
   );
   const productId = parseInt(params.id as string);
+  const [products, setProducts] = useState<Product[]>([]);
   const {
     cartItem,
     handleIncreaseProductQty,
@@ -24,6 +26,9 @@ const ProductPage = () => {
   } = useCartContext();
 
   useEffect(() => {
+    getProducts().then((data) => {
+      setProducts(data);
+    });
     getProduct(params.id as string)
       .then((data) => {
         setProduct(data);
@@ -39,6 +44,10 @@ const ProductPage = () => {
         console.error("Failed to fetch product:", error);
       });
   }, [params.id]);
+
+  const relatedProducts = products.filter(
+    (item) => item.category === product?.category && item.id !== product?.id,
+  );
 
   const handleImageChange = (selectedImage: string) => {
     if (!mainImage) return;
@@ -180,6 +189,8 @@ const ProductPage = () => {
           )}
         </div>
       </div>
+
+      <ProductSwiper products={relatedProducts} />
     </Container>
   );
 };
