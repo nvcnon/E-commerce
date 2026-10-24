@@ -7,6 +7,7 @@ const Navbar = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const activeCategory = searchParams.get("category");
+  const { isLogin } = useAuthContext();
 
   const navItems = [
     { title: "فروشگاه", path: "/store" },
@@ -122,12 +123,21 @@ const Navbar = () => {
               </svg>
             </Link>
 
-            <button
-              onClick={handleLogOut}
-              className="shrink-0 rounded-4xl px-3 py-2 text-sm transition-colors hover:bg-mist-300 sm:px-5 sm:py-3 sm:text-base lg:text-xl"
-            >
-              خروج
-            </button>
+            {isLogin ? (
+              <button
+                onClick={handleLogOut}
+                className="shrink-0 rounded-4xl px-3 py-2 text-sm transition-colors hover:bg-mist-300 sm:px-5 sm:py-3 sm:text-base lg:text-xl"
+              >
+                خروج
+              </button>
+            ) : (
+              <button
+                onClick={handleLogOut}
+                className="shrink-0 rounded-4xl px-3 py-2 text-sm transition-colors hover:bg-mist-300 sm:px-5 sm:py-3 sm:text-base lg:text-xl"
+              >
+                ورود
+              </button>
+            )}
           </div>
         </div>
       </Container>
