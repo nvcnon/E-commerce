@@ -37,7 +37,6 @@ This project demonstrates practical frontend development skills through reusable
 ## ✨ Features
 
 - Product listing and product details
-- Product search
 - Category filtering
 - URL-based search and filtering
 - Shopping cart management
@@ -48,7 +47,6 @@ This project demonstrates practical frontend development skills through reusable
 - Protected routes
 - Authentication state persistence
 - Cart persistence using Local Storage
-- Magazine / blog section
 - Responsive layouts
 - Reusable React components
 - Interactive Swiper sections
@@ -143,9 +141,9 @@ Users can:
 - View the total price
 - Retain cart data using Local Storage
 
-## 🔎 Search & Category Filtering
+## Category Filtering
 
-The Store page supports product search and category filtering.
+The Store page supports product category filtering.
 
 Filtering state is synchronized with the URL using React Router's `useSearchParams`.
 
