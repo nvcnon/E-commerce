@@ -18,14 +18,16 @@
       "category": "men",
       "image1": "https://iranian-style.com/wp-content/uploads/2026/10/B52039-5-833x1000.webp",
       "image2": "https://iranian-style.com/wp-content/uploads/2026/10/B52039-1.webp",
+      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/B52039-3-833x1000.webp",
+      "image4": "https://iranian-style.com/wp-content/uploads/2026/10/B52039-4-833x1000.webp",
       "colors": [
         {
           "name": "مشکی",
           "hex": "#000000"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "سبز",
+          "hex": "#193710"
         },
         {
           "name": "طوسی",
@@ -47,8 +49,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2025/05/T32368-6.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
           "name": "سفید",
@@ -72,16 +74,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2025/12/2-1.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "نوک مدادی",
+          "hex": "#3B3A3A"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "کرم",
+          "hex": "#B1AAAB"
         }
       ]
     },
@@ -101,12 +103,12 @@
           "hex": "#000000"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         }
       ]
     },
@@ -123,19 +125,20 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B42122-3-1-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "کرم",
+          "hex": "#B1AAAB"
         }
       ]
-    },{
+    },
+    {
       "id": "6",
       "title": "سویشرت بچگانه چهارخونه پشمی (سایز 3-4) S55015",
       "price": "750,000",
@@ -147,16 +150,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/S55009-4-1-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "صورتی",
+          "hex": "#A457A8"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "سبز",
+          "hex": "#9EBDA0"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "کرم",
+          "hex": "#988C67"
         }
       ]
     },
@@ -181,8 +184,8 @@
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         }
       ]
     },
@@ -200,16 +203,16 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/08/T52485-2-1-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سبز",
+          "hex": "#193710"
         }
       ]
     },
@@ -225,8 +228,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/A511145-6-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "سبز",
+          "hex": "#9EBDA0"
         },
         {
           "name": "سفید",
@@ -253,8 +256,8 @@
           "hex": "#000000"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
           "name": "طوسی",
@@ -276,12 +279,12 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/09/B52015-10-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "کرم",
+          "hex": "#988C67"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
           "name": "طوسی",
@@ -326,16 +329,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/H55014-6-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "سبز",
+          "hex": "#9EBDA0"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "آبی",
+          "hex": "#3361D6"
         }
       ]
     },
@@ -351,8 +354,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/A51295-3-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "صورتی",
+          "hex": "#A457A8"
         },
         {
           "name": "سفید",
@@ -377,16 +380,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T52203-2-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سبز",
+          "hex": "#9EBDA0"
         }
       ]
     },
@@ -403,8 +406,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T52259-4-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "آبی آسمانی",
+          "hex": "#9DB3EC"
         },
         {
           "name": "سفید",
@@ -428,16 +431,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/10/A410056-6-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "کرم",
+          "hex": "#988C67"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         }
       ]
     },
@@ -462,8 +465,8 @@
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         }
       ]
     },
@@ -485,12 +488,12 @@
           "hex": "#000000"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "قهوه ای",
+          "hex": "#4F4A4A"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         }
       ]
     },
@@ -507,16 +510,16 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/09/A511144-2-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "آبی",
+          "hex": "#3361D6"
+        },
+        {
+          "name": "آبی آسمانی",
+          "hex": "#9DB3EC"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
-        },
-        {
-          "name": "طوسی",
-          "hex": "#808080"
         }
       ]
     },
@@ -532,16 +535,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/05/A51146-7.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "کرم",
+          "hex": "#B1AAAB"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "آبی آسمانی",
+          "hex": "#9DB3EC"
         }
       ]
     },
@@ -558,16 +561,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/08/T42491-6-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "زرشکی",
+          "hex": "#651024"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سرمه ای",
+          "hex": "#202B55"
         }
       ]
     },
@@ -585,16 +588,16 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/09/T52352-4-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "طوسی",
+          "hex": "#808080"
+        },
+        {
+          "name": "کرم",
+          "hex": "#B1AAAB"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
-        },
-        {
-          "name": "طوسی",
-          "hex": "#808080"
         }
       ]
     },
@@ -614,12 +617,12 @@
           "hex": "#000000"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "آبی آسمانی",
+          "hex": "#9DB3EC"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سفید",
+          "hex": "#FFFFFF"
         }
       ]
     },
@@ -636,8 +639,8 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/02/K41902-4-1-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "سبز",
+          "hex": "#9EBDA0"
         },
         {
           "name": "سفید",
@@ -661,8 +664,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/10/B52050-5-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "سبز",
+          "hex": "#284527"
         },
         {
           "name": "سفید",
@@ -713,16 +716,16 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/09/B10031-5-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
-        },
-        {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "زرشکی",
+          "hex": "#651024"
         },
         {
           "name": "طوسی",
           "hex": "#808080"
+        },
+        {
+          "name": "کرم",
+          "hex": "#B1AAAB"
         }
       ]
     },
@@ -762,8 +765,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B55216-3-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "سبز",
+          "hex": "#284527"
         },
         {
           "name": "سفید",
@@ -787,8 +790,8 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/09/B55021-1-833x1000.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#563C20"
         },
         {
           "name": "سفید",
@@ -810,7 +813,6 @@
       "category": "kids",
       "image1": "https://iranian-style.com/wp-content/uploads/2026/06/T55101-site-3.webp",
       "image2": "https://iranian-style.com/wp-content/uploads/2026/06/T55101-site-1.webp",
-      "image3": "https://iranian-style.com/wp-content/uploads/2026/10/B52050-5-833x1000.webp",
       "colors": [
         {
           "name": "مشکی",
@@ -838,16 +840,16 @@
       "image3": "https://iranian-style.com/wp-content/uploads/2026/04/T45251-13.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "آبی",
+          "hex": "#464CE3"
         },
         {
           "name": "سفید",
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "قهوه ای",
+          "hex": "#8E5615"
         }
       ]
     },
@@ -872,8 +874,8 @@
           "hex": "#FFFFFF"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "سرمه ای",
+          "hex": "#0B447D"
         }
       ]
     },
@@ -890,12 +892,12 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/10/2-60.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#7D510B"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "کرم",
+          "hex": "#C8B392"
         },
         {
           "name": "طوسی",
@@ -916,16 +918,16 @@
       "image4": "https://iranian-style.com/wp-content/uploads/2026/05/A51012-5.webp",
       "colors": [
         {
-          "name": "مشکی",
-          "hex": "#000000"
+          "name": "قهوه ای",
+          "hex": "#56401F"
         },
         {
-          "name": "سفید",
-          "hex": "#FFFFFF"
+          "name": "کرم",
+          "hex": "#D6C6AE"
         },
         {
-          "name": "طوسی",
-          "hex": "#808080"
+          "name": "آبی آسمانی",
+          "hex": "#218273"
         }
       ]
     }

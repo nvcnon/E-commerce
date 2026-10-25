@@ -170,7 +170,7 @@ Examples include:
 - `Container`
 - `ProductItem`
 - `CartItem`
-- `ProductSection`
+- `ProductPage`
 - `CategorySection`
 - `Layout`
 - `PrivateRoute`
