@@ -1,13 +1,18 @@
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useParams } from "react-router-dom";
 import logo from "../../assets/images/logo/logoNav.jpeg";
 import Container from "./Container";
 import { useAuthContext } from "../../features/auth/context/AuthContext";
+import { useCartContext } from "../../features/cart/context/CartContext";
 
 const Navbar = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const activeCategory = searchParams.get("category");
-  const { isLogin } = useAuthContext();
+  const { isLogin, handleLogOut } = useAuthContext();
+  
+  const { cartItem } = useCartContext();
+
+  const totalQty = cartItem.reduce((total, item) => total + item.qty, 0);
 
   const navItems = [
     { title: "فروشگاه", path: "/store" },
@@ -16,8 +21,6 @@ const Navbar = () => {
     { title: "بچگانه", path: "/store?category=kids" },
     { title: "وبلاگ", path: "/blog" },
   ];
-
-  const { handleLogOut } = useAuthContext();
 
   return (
     <nav className="gap-3 px-4 py-3 shadow-xl shadow-gray-100 sm:px-6 lg:px-10">
@@ -67,8 +70,9 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="flex">
-            <Link to={"/cart"}>
+          <div className="flex relative">
+
+            <Link to={"/cart"} aria-label={`سبد خرید، ${totalQty} محصول`}>
               <svg
                 className="w-8 shrink-0 mr-3 sm:mr-6 sm:w-10 md:w-11"
                 viewBox="0 0 24 24"
@@ -121,6 +125,12 @@ const Navbar = () => {
                   </defs>{" "}
                 </g>
               </svg>
+
+              {totalQty > 0 && (
+                <span className="absolute -top-2 sm:-top-1 mr-2 md:mr-5 flex h-5 min-w-5 items-center justify-center rounded-full bg-red-600 px-1 text-xs text-white">
+                  {totalQty}
+                </span>
+              )}
             </Link>
 
             {isLogin ? (
