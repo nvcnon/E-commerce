@@ -198,7 +198,6 @@ Swiper is used to create interactive product and category sections.
 Depending on the section, the implementation includes features such as:
 
 - Responsive slides
-- Pagination
 - Navigation
 - Autoplay
 - Coverflow effects
