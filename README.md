@@ -38,7 +38,6 @@ This project demonstrates practical frontend development skills through reusable
 
 - Product listing and product details
 - Category filtering
-- URL-based search and filtering
 - Shopping cart management
 - Increase and decrease product quantities
 - Remove products from the cart
