@@ -6,13 +6,9 @@ import x from "../../assets/images/icons/x.png";
 import facebook from "../../assets/images/icons/icons8-facebook-48.png";
 import Container from "./Container";
 
-
 const Footer = () => {
   return (
-    <footer
-    //   style={{ backgroundColor: "#212529" }}
-      className="shadow shadow-gray-500 mt-20 p-6"
-    >
+    <footer className="bg-white text-gray-700 dark:bg-mist-900 dark:text-mist-400 shadow shadow-gray-500 py-10 p-6">
       <Container>
         <div
           dir="rtl"
@@ -67,9 +63,7 @@ const Footer = () => {
 
             <h5 className="mt-4">آدرس انبار مرکزی:</h5>
 
-            <p className="mt-2 leading-7">
-              تهران، ولیعصر، کوی نور
-            </p>
+            <p className="mt-2 leading-7">تهران، ولیعصر، کوی نور</p>
 
             <h5 className="mt-6">تلفن‌های پشتیبانی:</h5>
 

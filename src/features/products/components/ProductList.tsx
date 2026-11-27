@@ -23,7 +23,7 @@ const ProductList = ({ category }: ProductListProps) => {
 
   return (
     <Container>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-2 mt-7">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {filteredProducts.map((item) => (
           <Link to={`/product/${item.id}`}>
             <ProductCard key={item.id} {...item} />

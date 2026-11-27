@@ -38,7 +38,7 @@ const LoginForm = () => {
 
   return (
     <Container>
-      <section className="shadow sm:shadow-2xl lg:w-300 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 rounded-l-3xl mt-10">
+      <section className="bg-white text-black dark:bg-mist-900 dark:text-gray-100 shadow sm:shadow-2xl lg:w-300 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 sm:rounded-l-3xl">
         <div className="lg:col-span-7 mx-auto justify-center items-center">
           <h1 className="font-bold text-center mt-10 md:mt-30 md:text-4xl sm:text-3xl text-2xl">
             welcome to Ecommerce
@@ -52,7 +52,7 @@ const LoginForm = () => {
               لطفا اطلاعات خود را بصورت صحیح وارد کنید
             </h6>
             <label className="my-2" htmlFor="email">
-              ایمیل:‌{" "}
+              ایمیل :‌{" "}
             </label>
             <input
               onChange={handleChange}
@@ -66,7 +66,7 @@ const LoginForm = () => {
 
             <br />
 
-            <label htmlFor="password">پسورد: </label>
+            <label htmlFor="password">رمز عبور : </label>
             <input
               onChange={handleChange}
               value={user.password}
@@ -84,7 +84,7 @@ const LoginForm = () => {
             <br />
             <button
               type="submit"
-              className="my-3 w-full rounded bg-gray-700 text-white py-2"
+              className="my-3 w-full rounded bg-gray-700 dark:bg-mist-700 hover:bg-gray-600 dark:hover:bg-mist-800 text-white py-2"
             >
               ورود
             </button>
@@ -92,20 +92,24 @@ const LoginForm = () => {
             <div className="flex justify-center">
               <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1812573153:1655944654029516&flowEntry=ServiceLogin&flowName=WebLiteSignIn&ifkv=AX3vH39E0iYVTmn-NoMNM_C35EPrno8LWsRx2Qhr0HApkVLZ-Zc_Vql8ouaSQOiXzEmthrpOPAV5">
                 <img
-                  className="w-8 h-8 mx-1 mt-5 lg:mt-10"
+                  className="w-8 h-8 mx-1 mt-5 lg:mt-10 dark:bg-mist-300 rounded"
                   src={google}
                   alt=""
                 />
               </a>
               <a href="https://github.com/login">
                 <img
-                  className="w-8 h-8 mx-1 mt-5 lg:mt-10"
+                  className="w-8 h-8 mx-1 mt-5 lg:mt-10 dark:bg-mist-300 rounded"
                   src={github}
                   alt=""
                 />
               </a>
               <a href="https://x.com/twitt_login?lang=en">
-                <img className="w-8 h-8 mx-1 mt-5 lg:mt-10" src={x} alt="" />
+                <img
+                  className="w-8 h-8 mx-1 mt-5 lg:mt-10 dark:bg-mist-300 rounded"
+                  src={x}
+                  alt=""
+                />
               </a>
             </div>
           </form>

@@ -11,7 +11,7 @@ const CategorySection = () => {
         className="group relative h-70 overflow-hidden rounded-xl bg-black sm:h-80 lg:h-140"
       >
         <img
-          className="dark:opacity-70 dark:group-hover:opacity-40 h-full w-full rounded-xl object-cover opacity-20 transition-opacity duration-100 group-hover:opacity-100"
+          className="dark:opacity-70 dark:group-hover:opacity-40 h-full w-full rounded-xl object-cover opacity-40 transition-opacity duration-100 group-hover:opacity-100"
           src={menImage}
           alt="men"
         />
@@ -25,7 +25,7 @@ const CategorySection = () => {
         className="group relative h-70 overflow-hidden rounded-xl bg-black sm:h-80 lg:h-140"
       >
         <img
-          className="dark:opacity-70 dark:group-hover:opacity-40 h-full w-full rounded-xl object-cover opacity-20 transition-opacity duration-100 group-hover:opacity-100"
+          className="dark:opacity-70 dark:group-hover:opacity-40 h-full w-full rounded-xl object-cover opacity-40 transition-opacity duration-100 group-hover:opacity-100"
           src={womenImage}
           alt="women"
         />
@@ -39,7 +39,7 @@ const CategorySection = () => {
         className="group relative h-70 overflow-hidden rounded-xl bg-black sm:h-80 lg:h-140"
       >
         <img
-          className="dark:opacity-70 dark:group-hover:opacity-40 h-full w-full rounded-xl object-cover opacity-20 transition-opacity duration-100 group-hover:opacity-100"
+          className="dark:opacity-70 dark:group-hover:opacity-40 h-full w-full rounded-xl object-cover opacity-40 transition-opacity duration-100 group-hover:opacity-100"
           src={kidsImage}
           alt="kids"
         />

@@ -26,19 +26,19 @@ const HomePage = () => {
   );
 
   return (
-    <div>
+    <div className="bg-white text-gray-500 dark:bg-black dark:text-gray-100 pb-10">
       <HeroBanner />
       <Container>
         <CategorySection />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4  px-5 rounded-b-md text-gray-900">
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b border-b-gray-700 py-4 px-5 text-gray-900 dark:text-gray-100">
           مردانه
         </h1>
         <ProductSwiper products={menProducts} />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4  px-5 rounded-b-md text-gray-900">
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b border-b-gray-700 py-4 px-5 text-gray-900 dark:text-gray-100">
           زنانه
         </h1>
         <ProductSwiper products={womenProducts} />
-        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b py-4  px-5 rounded-b-md text-gray-900">
+        <h1 className="text-xl md:text-2xl lg:text-3xl mt-10 border-b border-b-gray-700 py-4 px-5 text-gray-900 dark:text-gray-100">
           بچگانه
         </h1>
         <ProductSwiper products={kidsProducts} />

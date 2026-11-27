@@ -1,14 +1,11 @@
 import type { Product } from "../../../types/product";
 
-type ProductCard = Product
+type ProductCard = Product;
 
-const ProductCard = ({image1, title, price} : ProductCard) => {
+const ProductCard = ({ image1, title, price }: ProductCard) => {
   return (
-    <section className="shadow-xl hover:opacity-95">
-      <img
-        src={image1}
-        alt="product"
-      />
+    <section className="  dark:border dark:border-mist-800 shadow-xl hover:opacity-95">
+      <img src={image1} alt="product" />
       <div className="h-30 my-3 flex justify-between p-3 sm:p-4 lg:p-5">
         <div className="min-w-0">
           <h2 className="mb-2 font-medium truncate">{title}</h2>

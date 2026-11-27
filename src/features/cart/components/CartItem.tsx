@@ -25,7 +25,7 @@ const CartItem = ({ id, qty }: CartItem) => {
   }, []);
 
   return (
-    <div className="my-3 flex h-20 sm:h-30  items-center rounded-l-2xl pl-2 text-right shadow sm:pl-5">
+    <div className="bg-white text-gray-800 dark:bg-mist-900 dark:text-white mb-3 flex h-20 sm:h-30  items-center rounded-l-2xl pl-2 text-right shadow sm:pl-5">
       <Link
         className="shrink-0"
         to={`/product/${id}`}
@@ -68,7 +68,7 @@ const CartItem = ({ id, qty }: CartItem) => {
         onClick={() => {
           handleRemoveProduct(id);
         }}
-        className="hover:opacity-60 mx-1 flex h-5 w-10 items-center  justify-center sm:mx-3 sm:h-10 sm:w-16 sm:rounded-xl"
+        className="hover:opacity-60 mx-1 flex h-5 w-10 items-center justify-center sm:mx-3 sm:h-10 sm:w-16 sm:rounded-xl"
       >
         <svg
           className="h-6 w-6 fill-gray-500 lg:h-8 lg:w-8"
